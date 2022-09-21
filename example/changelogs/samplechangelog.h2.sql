@@ -34,7 +34,7 @@ alter table company add column country varchar(2)
 
 --changeset demo.liquibase:3
 --rollback DROP TABLE company_kiran;
-create table company (
+create table company_kiran (
     id int primary key,
     name varchar(50) not null,
     address1 varchar(50),
